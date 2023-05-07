@@ -26,10 +26,6 @@ h3 {
   border-top-right-radius: 10px;
 }
 
-input[type=number]::-webkit-inner-spin-button {
-  opacity: 1;
-}
-
 #number-el {
   width: 40%;
   text-align: center;
