@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/16b26c5bcc.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Metric/Imperial Converter</title>
+    <link rel="icon" type="image/x-icon" href="/Images/favicon.png" />
+  </head>
+
+  <body class="container">
+    <div class="input row">
+      <h3>
+        <i class="fa-brands fa-square-js"></i> Metric/Imperial Unit Conversion
+      </h3>
+      <input
+        class="form-input"
+        type="number"
+        id="number-el"
+        min="0"
+        step=".1"
+      />
+      <div class="row-cols-1">
+        <button id="btn-convert" onclick="calctUnits()">Convert</button>
+        <button id="btn-reset" onclick="resetAll()">Reset</button>
+        
+      </div>
+    </div>
+    <div class="result">
+      <div id="length-el">
+        Length (Meter/Feet)
+        <br />
+        <span id="length"></span>
+      </div>
+      <div id="volume-el">
+        Volume (Liters/Gallons)
+        <br />
+        <span id="volume"></span>
+      </div>
+      <div id="mass-el">
+        Mass (Kilograms/Pounds)
+        <br />
+        <span id="mass"></span>
+      </div>
+      <div id="temp-el">
+        Temperature (Celsius/Fahrenheit)
+        <br />
+        <span id="temp"></span>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+  <div>
+    <a href="https://www.github.com" target="_blank">
+      <i class="fa-brands fa-github"></i>
+    </a>
+  </div>
+</html>
