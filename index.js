@@ -16,12 +16,12 @@ let numEl = (document.getElementById("number-el").value = "0.0");
 
 function calctUnits() {
   let numEl = document.getElementById("number-el").value;
-  meterFeet = (numEl * 3.281).toFixed(3);
-  feetMeter = (numEl / 3.281).toFixed(3);
-  literGallon = (numEl * 0.264).toFixed(3);
-  gallonLiter = (numEl / 0.264).toFixed(3);
-  kilogrammPound = (numEl * 2.204).toFixed(3);
-  poundKilogramm = (numEl / 2.204).toFixed(3);
+  meterFeet = (numEl * 3.281).toFixed(1);
+  feetMeter = (numEl / 3.281).toFixed(1);
+  literGallon = (numEl * 0.264).toFixed(1);
+  gallonLiter = (numEl / 0.264).toFixed(1);
+  kilogrammPound = (numEl * 2.204).toFixed(1);
+  poundKilogramm = (numEl / 2.204).toFixed(1);
   celsiusFahrenheit = (numEl * 1.8 + 32).toFixed(1);
   fahrenheitCelsius = ((numEl - 32) / 1.8).toFixed(1);
 
